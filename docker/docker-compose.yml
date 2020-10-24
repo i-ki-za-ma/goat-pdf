@@ -1,0 +1,12 @@
+version: '3.0'
+services:
+  php8:
+    container_name: php8
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+#    ports:
+#      - '8080:80'
+#    cpuset: 0-1
+#    mem_limit: 2g
+#    tty: true
